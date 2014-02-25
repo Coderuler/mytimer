@@ -1,6 +1,6 @@
 <?php
 
-/* Test timer  from server*/
+/* Test timer  from server new one*/
 
 
 
