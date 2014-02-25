@@ -1,9 +1,9 @@
 <?php
 
+/* Test timer */
 
-function test ()
-{
-	print "\ntest() called";
+function test() {
+    print "\ntest() called";
 }
 
 require_once 'Timers.class.php';
@@ -21,8 +21,7 @@ print "\nNo more calls to tick function";
 
 $end = time() + 1;
 
-while (time() < $end)
-{
+while (time() < $end) {
 
 }
 
