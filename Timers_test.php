@@ -1,8 +1,6 @@
 <?php
 
-/* Test timer  from server new one*/
-
-
+/* Test timer  from server new one */
 
 function test() {
     print "\ntest() called";
