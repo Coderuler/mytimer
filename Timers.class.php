@@ -1,6 +1,7 @@
 <?php
 /* updates */
 /* Created By Bhavesh Dudhat */
+/* Date:07-09-2018 */
 /**
  * 	Just for simplifying the Timers::setTimeout method
  *
@@ -190,7 +191,6 @@ class Timers {
 	    'time' => self::microtime() + $microseconds,
 	    'function' => $func,
 	);
-
 	return self::$numTimers;
     }
 
@@ -218,7 +218,6 @@ class Timers {
 	    'function' => $func,
 	    'microseconds' => $microseconds,
 	);
-
 	return self::$numIntervals;
     }
 
@@ -236,7 +235,6 @@ class Timers {
 	    unset(self::$timers[$timer]);
 	    return true;
 	}
-
 	return false;
     }
 
@@ -254,12 +252,10 @@ class Timers {
 	    unset(self::$intervals[$interval]);
 	    return true;
 	}
-
 	return false;
     }
 
 }
-
 /**
  * 	Register these methods in order to perform polling a specific intervals
  * 	that are set by the user
